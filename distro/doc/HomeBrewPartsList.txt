@@ -1,0 +1,20 @@
+Board Common Parts (Needed for all variants):
+- Adafruit Feather nRF52 Bluefruit LE [nRF52832] (Link: https://www.adafruit.com/product/3406)
+- I2S audio amp (Link: https://www.adafruit.com/product/3006)
+- MPU6050 breakout board
+- Micro-SD breakout board
+- Micro-SD card (at least 80 MB/s read speed recommended)
+
+Pixel Variant Only:
+- Neopixel (ws2812) strips
+- [Optonal] MOSFETs for blade power control, (Vgs of 3.3V or less recommended)
+
+RGB Variant Only:
+- 3x MOSFETs for blade color control (Vgs of 3.3V recommended for best results)
+
+Saber Common Parts (Needed for sabers in general):
+- Momentary Switch (primary switch for activation)
+- 8 Ohm (>= 2W recommended) speaker
+- 3.7V Li-Ion battery (15 Amp high drain-capable battery recommended for Pixel variant)
+- [Recommended] Recharge port or latching kill switch
+- [Optional] Momentary switch for Aux button
